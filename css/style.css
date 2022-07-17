@@ -9,7 +9,7 @@
 
 .title-description {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .title-description h1 {
   font-weight: 300;
@@ -132,6 +132,7 @@ footer a {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  position: relative;
 }
 
 .hidden {

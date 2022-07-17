@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/HatimHJ/Four-card-feature-section-solution)
+- Live Site URL: [live site](https://hatimhj.github.io/Four-card-feature-section-solution/)
 
 ## My process
 

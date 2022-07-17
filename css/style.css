@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.btn {
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+}
+
+.title-description {
+  text-align: center;
+  padding-top: 100px;
+}
+.title-description h1 {
+  font-weight: 300;
+  color: #4c4e61;
+  font-size: 2rem;
+}
+.title-description h2 {
+  font-weight: 700;
+  color: #4c4e61;
+  font-size: 2rem;
+}
+.title-description p {
+  max-width: 500px;
+  margin: 1em auto;
+  color: #a3a5ae;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.cards .col {
+  max-width: 33.33%;
+  padding: 4rem;
+}
+@media (max-width: 800px) {
+  .cards .col {
+    padding: 2em 0 0;
+    max-width: 90%;
+  }
+}
+.cards .card {
+  background: white;
+  padding: 2em;
+  box-shadow: -1px 15px 20px #D9E3ED;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  .cards .card {
+    margin-bottom: 1rem;
+  }
+}
+.cards .card .card-body {
+  padding: 1em 0;
+  color: #a3a5ae;
+  max-width: 300px;
+}
+.cards .card .card-footer {
+  text-align: right;
+}
+.cards .col-left .card {
+  border-top: 4px solid #45d3d3;
+}
+.cards .col-right .card {
+  border-top: 4px solid #549ef2;
+}
+.cards .col-middle .card:first-of-type {
+  border-top: 4px solid #ea5353;
+  margin-bottom: 3em;
+}
+.cards .col-middle .card:last-of-type {
+  border-top: 4px solid #fcaf4a;
+}
+
+.feature {
+  background: #fafafa;
+}
+
+footer {
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 1rem;
+  left: 1rem;
+  background: hsl(180deg, 62%, 55%);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+  clip-path: circle(7% at 6.6% 42%);
+  transition: all 0.3s;
+}
+footer:hover {
+  clip-path: circle(100%);
+  background-color: #363745;
+}
+@media (max-width: 992px) {
+  footer {
+    background-color: #363745;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    margin-top: 2rem;
+    border-radius: 0;
+    clip-path: circle(100%);
+  }
+}
+footer a {
+  color: hsl(0deg, 78%, 62%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
